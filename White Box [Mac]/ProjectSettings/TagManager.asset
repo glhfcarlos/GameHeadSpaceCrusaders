@@ -40,7 +40,16 @@ TagManager:
   - 
   m_SortingLayers:
   - name: BK
+    uniqueID: 1421826587
+    locked: 0
+  - name: BK1
     uniqueID: 927872859
+    locked: 0
+  - name: BK2
+    uniqueID: 1945420705
+    locked: 0
+  - name: BK3
+    uniqueID: 3151230183
     locked: 0
   - name: Tilemap
     uniqueID: 3808144475
