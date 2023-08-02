@@ -3,7 +3,7 @@ guid: d14ab654bb9bf47a69b2cab40eee8ba3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,7 +63,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -253,12 +252,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Untitled-Artwork (1)_0: 1295056133
-      Untitled-Artwork (1)_1: 1739288791
-      Untitled-Artwork (1)_2: -1452528376
       Untitled-Artwork (1)_3: 1616030425
-      Untitled-Artwork (1)_4: 1469185968
+      Untitled-Artwork (1)_2: -1452528376
       Untitled-Artwork (1)_5: 1408524009
+      Untitled-Artwork (1)_1: 1739288791
+      Untitled-Artwork (1)_0: 1295056133
+      Untitled-Artwork (1)_4: 1469185968
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 1

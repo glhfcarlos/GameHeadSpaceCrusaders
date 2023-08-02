@@ -8,7 +8,7 @@ public class SkillCheckManager : MonoBehaviour
     public Transform posB;
     public float speed;
     public float delayBeforeStart;
-    //public Canvas SkillCheckCanvas; 
+    public Canvas SkillCheckCanvas; 
 
     Vector3 targetPos;
     private bool isMoving; 
@@ -16,7 +16,7 @@ public class SkillCheckManager : MonoBehaviour
     {
         targetPos = posB.position;
         isMoving = false;
-        //SkillCheckCanvas.enabled = false;
+        SkillCheckCanvas.enabled = false;
 
         Invoke("StartSkillCheckMovement", delayBeforeStart); 
     }
@@ -32,11 +32,20 @@ public class SkillCheckManager : MonoBehaviour
             targetPos = posA.position;
         }
         transform.position = Vector3.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
+
+        /*if (GameManager.instance.currentHackingValue > 20)
+        {
+            SkillCheckCanvas.enabled = true;
+        }
+        else
+        {
+            SkillCheckCanvas.enabled = false; 
+        }*/
     }
 
     public void CheckskillcheckPos()
     {
-        float posXL = -488.18f;
+        float posXL = -488.15f;
         float posXR = -486.76f; 
 
         if (transform.localPosition.x >posXL && transform.localPosition.x < posXR)

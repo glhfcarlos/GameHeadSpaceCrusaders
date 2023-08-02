@@ -1774,7 +1774,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Teilmap_73: 1007697155
-      Teilmap_62: -1517934014
+      Teilmap_41: 1741314629
       Teilmap_34: 1957516113
       Teilmap_5: -1270775625
       Teilmap_14: 123430105
@@ -1848,10 +1848,10 @@ TextureImporter:
       Teilmap_49: -1661320928
       Teilmap_74: 118955229
       Teilmap_32: -866960601
-      Teilmap_16: -1951232864
-      Teilmap_15: 1780296354
-      Teilmap_41: 1741314629
       Teilmap_52: 921335650
+      Teilmap_62: -1517934014
+      Teilmap_15: 1780296354
+      Teilmap_16: -1951232864
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 1

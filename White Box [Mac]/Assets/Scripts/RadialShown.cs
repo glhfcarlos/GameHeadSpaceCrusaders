@@ -6,8 +6,8 @@ public class RadialShown : MonoBehaviour
 {
 
     public GameObject RadialObject;
-    public GameObject Robot; 
-
+    public GameObject Robot;
+    public SkillCheckManager SkillCheck; 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

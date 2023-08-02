@@ -1039,7 +1039,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       pipe_35: 1601387441
-      pipe_42: -458443370
+      pipe_28: 655239702
       pipe_18: 654628863
       pipe_24: 1932973726
       pipe_17: 425839775
@@ -1054,9 +1054,9 @@ TextureImporter:
       pipe_41: 635101959
       pipe_21: -1169770839
       pipe_34: 1614313822
-      pipe_15: -1229314983
       pipe_0: 1047535023
       pipe_11: -412799511
+      pipe_15: -1229314983
       pipe_7: -1262609168
       pipe_2: -1950272915
       pipe_39: 1395845681
@@ -1078,9 +1078,9 @@ TextureImporter:
       pipe_19: 1098198250
       pipe_14: -196687527
       pipe_31: 1230949583
-      pipe_32: 416529203
       pipe_38: 1720137495
-      pipe_28: 655239702
+      pipe_42: -458443370
+      pipe_32: 416529203
       pipe_29: 460750084
   spritePackingTag: 
   pSDRemoveMatte: 0

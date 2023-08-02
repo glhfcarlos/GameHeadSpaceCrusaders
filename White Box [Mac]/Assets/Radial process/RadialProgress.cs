@@ -11,8 +11,14 @@ public class RadialProgress : MonoBehaviour
 
     [SerializeField] float speed;
 
-     
-    
+    public GameObject skillCheckUI;
+
+
+    private void Start()
+    {
+        skillCheckUI.SetActive(false);
+    }
+
     void Update()
     {
         if (GameManager.instance.currentHackingValue < 100 && GameManager.instance.startHacking)
@@ -26,10 +32,16 @@ public class RadialProgress : MonoBehaviour
         }
         image.fillAmount = GameManager.instance.currentHackingValue / 100;
 
+        if (GameManager.instance.currentHackingValue >= 20f)
+        {
+            skillCheckUI.SetActive(true);
+        }
+        
         if (GameManager.instance.currentHackingValue / 100 >= 0.999f)
         {
             GameManager.instance.HackingComplete = true;
             text.text = "Hack Compeleted";
+            skillCheckUI.SetActive(false);
         }
     }
 }
