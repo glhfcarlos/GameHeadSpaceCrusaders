@@ -8,7 +8,7 @@ public class SkillCheckManager : MonoBehaviour
     public Transform posB;
     public float speed;
     public float delayBeforeStart;
-    public Canvas SkillCheckCanvas; 
+    public GameObject SkillCheckCanvas; 
 
     Vector3 targetPos;
     private bool isMoving; 
@@ -16,7 +16,6 @@ public class SkillCheckManager : MonoBehaviour
     {
         targetPos = posB.position;
         isMoving = false;
-        SkillCheckCanvas.enabled = false;
 
         Invoke("StartSkillCheckMovement", delayBeforeStart); 
     }
@@ -59,8 +58,8 @@ public class SkillCheckManager : MonoBehaviour
             GameManager.instance.currentHackingValue -= 5; 
         }
 
-
-
+        SkillCheckCanvas.SetActive(false);
+        Debug.Log("Turn off"); 
     }
 
 

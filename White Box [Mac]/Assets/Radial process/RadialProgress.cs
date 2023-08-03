@@ -13,10 +13,12 @@ public class RadialProgress : MonoBehaviour
 
     public GameObject skillCheckUI;
 
+    public float ShowSkillCheck20; 
 
     private void Start()
     {
         skillCheckUI.SetActive(false);
+        ShowSkillCheck20 = 20f;  
     }
 
     void Update()
@@ -32,9 +34,10 @@ public class RadialProgress : MonoBehaviour
         }
         image.fillAmount = GameManager.instance.currentHackingValue / 100;
 
-        if (GameManager.instance.currentHackingValue >= 20f)
+        if (GameManager.instance.currentHackingValue >= ShowSkillCheck20)
         {
             skillCheckUI.SetActive(true);
+            ShowSkillCheck20 += 20f; 
         }
         
         if (GameManager.instance.currentHackingValue / 100 >= 0.999f)
@@ -42,6 +45,7 @@ public class RadialProgress : MonoBehaviour
             GameManager.instance.HackingComplete = true;
             text.text = "Hack Compeleted";
             skillCheckUI.SetActive(false);
+            ShowSkillCheck20 = 20f; 
         }
     }
 }
