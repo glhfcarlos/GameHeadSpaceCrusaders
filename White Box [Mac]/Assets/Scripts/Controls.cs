@@ -407,6 +407,45 @@ public partial class @Controls : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Interaction"",
+            ""id"": ""cf1de92c-14d6-4883-991d-42168d24905b"",
+            ""actions"": [
+                {
+                    ""name"": ""Interaction"",
+                    ""type"": ""Button"",
+                    ""id"": ""fd7d715e-6bc1-4594-aa7b-de5f8833e3bc"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""1bbecb3b-2f21-4238-a419-ad41e29ecba4"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Interaction"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e6e4fa3b-d4cb-4c38-8ce9-10f12fb0ec84"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard "",
+                    ""action"": ""Interaction"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -435,6 +474,9 @@ public partial class @Controls : IInputActionCollection2, IDisposable
         // SkillCheckAction
         m_SkillCheckAction = asset.FindActionMap("SkillCheckAction", throwIfNotFound: true);
         m_SkillCheckAction_SkillCheckAction = m_SkillCheckAction.FindAction("SkillCheckAction", throwIfNotFound: true);
+        // Interaction
+        m_Interaction = asset.FindActionMap("Interaction", throwIfNotFound: true);
+        m_Interaction_Interaction = m_Interaction.FindAction("Interaction", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -630,6 +672,39 @@ public partial class @Controls : IInputActionCollection2, IDisposable
         }
     }
     public SkillCheckActionActions @SkillCheckAction => new SkillCheckActionActions(this);
+
+    // Interaction
+    private readonly InputActionMap m_Interaction;
+    private IInteractionActions m_InteractionActionsCallbackInterface;
+    private readonly InputAction m_Interaction_Interaction;
+    public struct InteractionActions
+    {
+        private @Controls m_Wrapper;
+        public InteractionActions(@Controls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Interaction => m_Wrapper.m_Interaction_Interaction;
+        public InputActionMap Get() { return m_Wrapper.m_Interaction; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(InteractionActions set) { return set.Get(); }
+        public void SetCallbacks(IInteractionActions instance)
+        {
+            if (m_Wrapper.m_InteractionActionsCallbackInterface != null)
+            {
+                @Interaction.started -= m_Wrapper.m_InteractionActionsCallbackInterface.OnInteraction;
+                @Interaction.performed -= m_Wrapper.m_InteractionActionsCallbackInterface.OnInteraction;
+                @Interaction.canceled -= m_Wrapper.m_InteractionActionsCallbackInterface.OnInteraction;
+            }
+            m_Wrapper.m_InteractionActionsCallbackInterface = instance;
+            if (instance != null)
+            {
+                @Interaction.started += instance.OnInteraction;
+                @Interaction.performed += instance.OnInteraction;
+                @Interaction.canceled += instance.OnInteraction;
+            }
+        }
+    }
+    public InteractionActions @Interaction => new InteractionActions(this);
     private int m_KeyboardSchemeIndex = -1;
     public InputControlScheme KeyboardScheme
     {
@@ -664,5 +739,9 @@ public partial class @Controls : IInputActionCollection2, IDisposable
     public interface ISkillCheckActionActions
     {
         void OnSkillCheckAction(InputAction.CallbackContext context);
+    }
+    public interface IInteractionActions
+    {
+        void OnInteraction(InputAction.CallbackContext context);
     }
 }
