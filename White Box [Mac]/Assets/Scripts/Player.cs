@@ -72,9 +72,10 @@ public class Player : MonoBehaviour
             if ((!isRobot && !GameManager.instance.controllingRobot) || (isRobot && GameManager.instance.controllingRobot))
             {
                 rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
-                hasJumped = true; 
+                hasJumped = true;
+                Animation.SetBool("isjumping", true);
             }
-            
+            Animation.SetTrigger("takeoff");
         }
     }
 
@@ -83,6 +84,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             hasJumped = false;
+            Animation.SetBool("isjumping", false);
         }
     }
 
