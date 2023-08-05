@@ -32,6 +32,7 @@ public class Player : MonoBehaviour
         Move();
         Jump();
         Grounded = Physics2D.Raycast(transform.position, groundCheck.position, LayerMask.GetMask("Ground"));
+        print(hasJumped);
     }
 
 
@@ -84,7 +85,7 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (collision.gameObject.CompareTag("Ground") && hasJumped)
         {
             hasJumped = false;
             Animation.SetBool("isjumping", false);
