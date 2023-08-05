@@ -23,6 +23,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
     }
 
 
@@ -72,17 +73,22 @@ public class Player : MonoBehaviour
             if ((!isRobot && !GameManager.instance.controllingRobot) || (isRobot && GameManager.instance.controllingRobot))
             {
                 rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
-                hasJumped = true; 
+                hasJumped = true;
+                Animation.SetTrigger("takeoff");
+                Animation.SetBool("isjumping", true);
             }
             
         }
-    }
+
+    }   
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
             hasJumped = false;
+            Animation.SetBool("isjumping", false);
+
         }
     }
 
