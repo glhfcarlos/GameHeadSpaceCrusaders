@@ -75,10 +75,11 @@ public class Player : MonoBehaviour
             {
                 rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
                 hasJumped = true;
-                Animation.SetTrigger("takeoff");
-                Animation.SetBool("isjumping", true);
+                //Animation.SetTrigger("takeoff");
+                Animation.SetBool("up", true);
             }
-            
+            Animation.SetTrigger("takeoff");
+            Animation.SetBool("isjumping", true);
         }
 
     }   
@@ -98,6 +99,21 @@ public class Player : MonoBehaviour
     {
         Gizmos.color = Color.blue;
         Gizmos.DrawLine(transform.position, transform.position + Vector3.down * groundDist);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            collision.transform.parent = this.transform;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            collision.transform.parent = null;
+        }
     }
 
 }
