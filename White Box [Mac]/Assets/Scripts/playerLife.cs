@@ -1,23 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class playerLife : MonoBehaviour
 {
-    int trapsLayer;
+    private Animator anim;
+    private Rigidbody2D rb;
 
     // Start is called before the first frame update
     void Start()
     {
-        trapsLayer = LayerMask.NameToLayer("Traps");
+        anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.layer == trapsLayer)
+        if (collision.gameObject.CompareTag("Trap"))
         {
-            gameObject.SetActive(false);
+            die();
         }
+    }
+
+    private void die()
+    {
+       
+        rb.bodyType = RigidbodyType2D.Static;
+        anim.SetTrigger("death");
+    }
+    public void RestartLevel() 
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
 
