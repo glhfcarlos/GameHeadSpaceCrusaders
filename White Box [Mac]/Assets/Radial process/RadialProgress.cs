@@ -35,7 +35,7 @@ public class RadialProgress : MonoBehaviour
         image.fillAmount = GameManager.instance.currentHackingValue / 100;
 
         if (GameManager.instance.currentHackingValue >= ShowSkillCheck20)
-        {
+        { 
             skillCheckUI.SetActive(true);
             ShowSkillCheck20 += 20f; 
         }

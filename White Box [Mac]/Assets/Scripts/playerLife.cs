@@ -12,7 +12,7 @@ public class playerLife : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponentInParent<Rigidbody2D>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -27,7 +27,7 @@ public class playerLife : MonoBehaviour
     {
        
         rb.bodyType = RigidbodyType2D.Static;
-        anim.SetTrigger("death");
+        anim.Play("die");
     }
     public void RestartLevel() 
     {

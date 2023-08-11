@@ -23,7 +23,7 @@ public class UserInput : MonoBehaviour
 
         else
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
 
         controls = new Controls();
@@ -43,7 +43,7 @@ public class UserInput : MonoBehaviour
 
     private void OnDisable()
     {
-        controls.Disable(); 
+       // controls.Disable(); 
     }
 
     private void StartHacking()
