@@ -100,13 +100,20 @@ public class Player : MonoBehaviour
         Gizmos.color = Color.blue;
         Gizmos.DrawLine(transform.position, transform.position + Vector3.down * groundDist);
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") )
+        {
+            collision.transform.parent = this.transform;
+        }
+        if ((!isRobot && !GameManager.instance.controllingRobot) || (isRobot && GameManager.instance.controllingRobot))
         {
             collision.transform.parent = this.transform;
         }
     }
+
+
 
     private void OnTriggerExit2D(Collider2D collision)
     {
