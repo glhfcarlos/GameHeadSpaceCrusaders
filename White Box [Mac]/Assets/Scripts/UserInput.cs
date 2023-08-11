@@ -23,7 +23,7 @@ public class UserInput : MonoBehaviour
 
         else
         {
-            //Destroy(gameObject);
+            Destroy(gameObject);
         }
 
         controls = new Controls();
