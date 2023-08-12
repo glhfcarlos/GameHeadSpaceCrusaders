@@ -74,11 +74,13 @@ public class UserInput : MonoBehaviour
         if (GameManager.instance.HackingComplete && GameManager.instance.controllingRobot)
         {
             GameManager.instance.controllingRobot = false;
+            GameManager.instance.MainPlayer.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
         }
 
         else if (GameManager.instance.HackingComplete && !GameManager.instance.controllingRobot) 
         {
             GameManager.instance.controllingRobot = true;
+            GameManager.instance.MainPlayer.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
         }
     }
 

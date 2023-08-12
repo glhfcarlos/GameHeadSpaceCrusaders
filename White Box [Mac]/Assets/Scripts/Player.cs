@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
         Move();
         Jump();
         Grounded = Physics2D.Raycast(transform.position, groundCheck.position, LayerMask.GetMask("Ground"));
-        print(hasJumped);
+        //print(hasJumped);
     }
 
 
@@ -109,7 +109,7 @@ public class Player : MonoBehaviour
         }
         if ((!isRobot && !GameManager.instance.controllingRobot) || (isRobot && GameManager.instance.controllingRobot))
         {
-            collision.transform.parent = this.transform;
+            //collision.transform.parent = this.transform;
         }
     }
 

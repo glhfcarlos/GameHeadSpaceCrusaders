@@ -15,7 +15,8 @@ public class RadialShown : MonoBehaviour
         {
             RadialObject.SetActive(true);
             GameManager.instance.currentHackingValue = 0f;
-            GameManager.instance.Robot = Robot; 
+            GameManager.instance.Robot = Robot;
+            collision.transform.SetParent(Robot.transform);
         }
     }
 
@@ -25,6 +26,7 @@ public class RadialShown : MonoBehaviour
         {
             RadialObject.SetActive(false);
             GameManager.instance.currentHackingValue = 0f;
+            collision.transform.SetParent(null);
         }
     }
 
