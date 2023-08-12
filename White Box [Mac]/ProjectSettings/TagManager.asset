@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Trap
+  - Swich
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - Robot
   - BK
   - Traps
-  - 
+  - TriggerBox
   - 
   - 
   - 
