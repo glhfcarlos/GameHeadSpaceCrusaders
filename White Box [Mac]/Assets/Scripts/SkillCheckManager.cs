@@ -50,12 +50,12 @@ public class SkillCheckManager : MonoBehaviour
         if (transform.localPosition.x >posXL && transform.localPosition.x < posXR)
         {
             Debug.Log("Awesome hit!!!");
-            GameManager.instance.currentHackingValue += 5; 
+            GameManager.instance.currentHackingValue += 10; 
         }
         else
         {
             Debug.Log("Loser you suck!!!");
-            GameManager.instance.currentHackingValue -= 5; 
+            GameManager.instance.currentHackingValue -= 30; 
         }
 
         SkillCheckCanvas.SetActive(false);

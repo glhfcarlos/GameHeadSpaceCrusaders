@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+    public Player MainPlayer; 
+
     public bool startHacking;
 
     public float currentHackingValue;
