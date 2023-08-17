@@ -4,27 +4,21 @@ using UnityEngine;
 
 public class Sign : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
+    public GameObject Message;
 
-    }
-
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-
-    }
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Swich") && other.GetType().ToString() == "UnityEngine.CapsuleCollider2D")
+        if (other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Player entered with CapsuleCollider2D");
+            Message.SetActive(true);
         }
     }
 
-    void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other)
     {
-        // Code for when the player exits the trigger zone can go here
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Message.SetActive(false);
+        }
     }
 }
