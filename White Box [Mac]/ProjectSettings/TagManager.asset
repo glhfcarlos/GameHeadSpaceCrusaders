@@ -19,7 +19,7 @@ TagManager:
   - Robot
   - BK
   - Traps
-  - TriggerBox
+  - infor
   - 
   - 
   - 
@@ -41,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: infor
+    uniqueID: 2477070567
+    locked: 0
   - name: BK
     uniqueID: 1421826587
     locked: 0
