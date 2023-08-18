@@ -32,14 +32,14 @@ public class SkillCheckManager : MonoBehaviour
         }
         transform.position = Vector3.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
 
-        /*if (GameManager.instance.currentHackingValue > 20)
+        if (GameManager.instance.currentHackingValue > 20)
         {
-            SkillCheckCanvas.enabled = true;
+            SkillCheckCanvas.SetActive(true);
         }
         else
         {
-            SkillCheckCanvas.enabled = false; 
-        }*/
+            SkillCheckCanvas.SetActive(false); 
+        }
     }
 
     public void CheckskillcheckPos()
