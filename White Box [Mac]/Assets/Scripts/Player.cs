@@ -41,7 +41,21 @@ public class Player : MonoBehaviour
         
         Jump();
         Grounded = Physics2D.Raycast(transform.position, groundCheck.position, LayerMask.GetMask("Ground"));
-        //print(hasJumped);
+
+        if (isRobot && hasJumped)
+        {
+            AnimatorStateInfo info = Animation.GetCurrentAnimatorStateInfo(0);
+            if ( info.normalizedTime > 1.0f && info.IsName("up"))
+            {
+                Animation.SetBool("up", false);
+                hasJumped = false;
+            }
+            else
+            {
+                Debug.Log(string.Format("Animation State length: {0}, Animation State Time: {1}", info.length, info.normalizedTime));
+            }
+
+        }
     }
 
 
@@ -81,7 +95,7 @@ public class Player : MonoBehaviour
     private void MovingRobotUpandDowm()
 {
         if ((!isRobot && !GameManager.instance.controllingRobot))
-        {
+        { 
             moveInput = UserInput.instance.moveInput.y;
 
             rb.velocity = new Vector2(0, moveInput * moveSpeed);
@@ -106,15 +120,19 @@ public class Player : MonoBehaviour
     {
         if (Grounded && UserInput.instance.controls.Movement.Jump.triggered && !hasJumped)
         {
-            if ((!isRobot && !GameManager.instance.controllingRobot) || (isRobot && GameManager.instance.controllingRobot))
+            if (GameManager.instance.controllingRobot && isRobot)
+            {
+                Animation.SetBool("up", true);
+                hasJumped = true;
+            }
+            else if(!isRobot)
             {
                 rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
                 hasJumped = true;
-                //Animation.SetTrigger("takeoff");
-                Animation.SetBool("up", true);
+
+                Animation.SetTrigger("takeoff");
+                Animation.SetBool("isjumping", true);
             }
-            Animation.SetTrigger("takeoff");
-            Animation.SetBool("isjumping", true);
         }
 
     }   
