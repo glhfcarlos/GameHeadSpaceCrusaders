@@ -167,6 +167,12 @@ PlayableDirector:
     value: {fileID: 2107583774}
   - key: {fileID: -6937467574806861387, guid: 71a78ef0292e13f4bb1bee9a7fcc9b8d, type: 2}
     value: {fileID: 804806094}
+  - key: {fileID: -8644449874735720940, guid: 71a78ef0292e13f4bb1bee9a7fcc9b8d, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 103602926270933924, guid: 71a78ef0292e13f4bb1bee9a7fcc9b8d, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: 3069087640620477887, guid: 71a78ef0292e13f4bb1bee9a7fcc9b8d, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &6766264
@@ -1330,15 +1336,12 @@ MonoBehaviour:
   - position: {x: 1.1115133, y: -0.56934327, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
     uv: {x: 0.5453038, y: 0.68751556}
-  - position: {x: 0.9573531, y: -0.71493894, z: 0}
-    color: {r: 0, g: 0, b: 0, a: 1}
-    uv: {x: 0.53651476, y: 0.67577523}
-  - position: {x: 1.1115133, y: -0.6635522, z: 0}
-    color: {r: 0, g: 0, b: 0, a: 1}
-    uv: {x: 0.5453038, y: 0.6799189}
   - position: {x: 0.88027304, y: -0.31240964, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
     uv: {x: 0.5321202, y: 0.7082337}
+  - position: {x: 1.1115133, y: -0.6721167, z: 0}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    uv: {x: 0.5453038, y: 0.67922825}
   - position: {x: 0.8117574, y: -0.20963621, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
     uv: {x: 0.528214, y: 0.716521}
@@ -1357,9 +1360,6 @@ MonoBehaviour:
   - position: {x: 0.23793906, y: -0.39805418, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
     uv: {x: 0.4954991, y: 0.7013277}
-  - position: {x: 0.22081015, y: 1.1435474, z: 0}
-    color: {r: 0, g: 0, b: 0, a: 1}
-    uv: {x: 0.49452254, y: 0.82563704}
   - position: {x: 0.19511679, y: -0.39805418, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
     uv: {x: 0.4930577, y: 0.7013277}
@@ -1372,6 +1372,9 @@ MonoBehaviour:
   - position: {x: 0.15229452, y: -0.16681394, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
     uv: {x: 0.4906163, y: 0.7199741}
+  - position: {x: 0.10947226, y: 1.1435474, z: 0}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    uv: {x: 0.4881749, y: 0.82563704}
   - position: {x: 0.075214446, y: -0.12399168, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
     uv: {x: 0.48622176, y: 0.7234271}
@@ -1405,15 +1408,12 @@ MonoBehaviour:
   - position: {x: -0.22454141, y: -0.3209741, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
     uv: {x: 0.46913192, y: 0.70754313}
-  - position: {x: -0.25023478, y: 0.8095337, z: 0}
-    color: {r: 0, g: 0, b: 0, a: 1}
-    uv: {x: 0.46766707, y: 0.7987034}
-  - position: {x: -0.24167033, y: -0.4665698, z: 0}
-    color: {r: 0, g: 0, b: 0, a: 1}
-    uv: {x: 0.46815535, y: 0.69580287}
   - position: {x: -0.3016215, y: -0.47513425, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
     uv: {x: 0.4647374, y: 0.6951122}
+  - position: {x: -0.24167033, y: -0.4665698, z: 0}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    uv: {x: 0.46815535, y: 0.69580287}
   - position: {x: -0.5328617, y: -0.47513425, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
     uv: {x: 0.4515538, y: 0.6951122}
@@ -1423,15 +1423,18 @@ MonoBehaviour:
   - position: {x: -0.6955863, y: -0.4494409, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
     uv: {x: 0.44227645, y: 0.6971841}
+  - position: {x: -0.71271527, y: -0.338103, z: 0}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    uv: {x: 0.4412999, y: 0.706162}
   - position: {x: -0.7555375, y: -0.5607788, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
     uv: {x: 0.43885848, y: 0.68820614}
-  - position: {x: -1.0981157, y: -1.074646, z: 0}
+  - position: {x: -0.8668754, y: -1.1345972, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
-    uv: {x: 0.41932723, y: 0.6467697}
-  - position: {x: -0.9439555, y: -1.1345972, z: 0}
+    uv: {x: 0.43251082, y: 0.64193547}
+  - position: {x: -1.0981157, y: -1.0832105, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
-    uv: {x: 0.4281163, y: 0.64193547}
+    uv: {x: 0.41932723, y: 0.64607906}
   - position: {x: -1.0981157, y: -1.1345972, z: 0}
     color: {r: 0, g: 0, b: 0, a: 1}
     uv: {x: 0.41932723, y: 0.64193547}
@@ -1897,13 +1900,7 @@ MonoBehaviour:
   - position: {x: 0, y: 0, z: 0}
     color: {r: 0, g: 0, b: 0, a: 0}
     uv: {x: 0, y: 0}
-  - position: {x: 0, y: 0, z: 0}
-    color: {r: 0, g: 0, b: 0, a: 0}
-    uv: {x: 0, y: 0}
-  - position: {x: 0, y: 0, z: 0}
-    color: {r: 0, g: 0, b: 0, a: 0}
-    uv: {x: 0, y: 0}
-  m_Triangles: 1e001c003b003c003b001c001800170015003a001800390015003900180016003900150016000200370000003700020038003700000036000f000e002300330025000400250033003400330023003500330034003200040033003100040032003000040031002f00040030002e0004002f002d0004002e002c0004002d002b0004002c002a0004002b00290004002a002800040029002700040028000600040027002600240025002300250024001d0023002400220023001d00210022001d00200021001d001f0020001d001e001f001d001c001e001d0014001c001d001b001c0014001a001b00140019001a0014001800190014001700180014001500170014000200150014001600150002000100020014000000010014001300000014000d0013001400120013000d00110012000d00100011000d000f0010000d000e000f000d000c000e000d0007000c000d00030007000d000b000c0007000a000b00070008000a000700090008000700060007000300040006000300050004000300020001000000
+  m_Triangles: 1d001b003a003b003a001b0017001600140039001700380014003800170015003800140015000200360000003600020037003600000035000d000c002200320023000500230032003300320022003400320033003100050032003000050031002f00050030002e0005002f002d0005002e002c0005002d002b0005002c002a0005002b00290005002a002800050029002700050028002600050027000400050026002500240023002100230024002200230021002000220021001300200021001f00200013001e001f0013001c001e0013001b001c0013001d001c001b001a001b00130019001a0013001800190013001700180013001600170013001400160013000200140013001500140002000100020013000000010013001200000013001000120013001100120010000f001100100006000f0010000300060010000e000f0006000d000e0006000c000d0006000b000c0006000a000b00060009000a000600070009000600080007000600040006000300050004000300020001000000
   m_LocalBounds:
     m_Center: {x: 0.006698787, y: 0.0044751167, z: 0}
     m_Extent: {x: 1.1048145, y: 1.1390723, z: 0}
@@ -3047,6 +3044,134 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &667140839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 667140841}
+  - component: {fileID: 667140840}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &667140840
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667140839}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 2ec14d07946c7fe429f08fc058e5b2f8, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &667140841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667140839}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.4764752, y: 1.3387303, z: -0.28554642}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &681083858
 GameObject:
   m_ObjectHideFlags: 0
@@ -4427,6 +4552,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1333773040}
         m_TargetAssemblyTypeName: NarrationContinueButton, Assembly-CSharp
         m_MethodName: PlayGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 667140840}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
