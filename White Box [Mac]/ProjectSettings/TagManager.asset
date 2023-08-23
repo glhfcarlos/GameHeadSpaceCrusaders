@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Trap
   - Swich
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Robot
   - BK
   - Traps
-  - TriggerBox
+  - infor
   - 
   - 
   - 
@@ -41,6 +42,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: player
+    uniqueID: 4055258495
+    locked: 0
+  - name: infor
+    uniqueID: 2477070567
+    locked: 0
   - name: BK
     uniqueID: 1421826587
     locked: 0
