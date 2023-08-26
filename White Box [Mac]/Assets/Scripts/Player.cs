@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
     [SerializeField] private float moveSpeed = 7.5f;
     [SerializeField] private float jumpForce = 50f;
     [SerializeField] private float groundDist = 100f;
+    AudioSource audioS;
+    public AudioClip jump;
 
     public bool isRobot;
     public bool Grounded;
@@ -24,6 +26,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        audioS = GetComponent<AudioSource>();
 
     }
 
@@ -63,6 +66,7 @@ public class Player : MonoBehaviour
     {
         if ((!isRobot && !GameManager.instance.controllingRobot))
         {
+            
             moveInput = UserInput.instance.moveInput.x;
 
             rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
@@ -70,6 +74,7 @@ public class Player : MonoBehaviour
 
             if (moveInput > 0.1f)
             {
+                
                 // Face right
                 Animation.transform.localScale = new Vector3(Mathf.Abs(Animation.transform.localScale.x), Animation.transform.localScale.y, Animation.transform.localScale.z);
             }
@@ -118,6 +123,7 @@ public class Player : MonoBehaviour
 
     private void Jump()
     {
+       
         if (Grounded && UserInput.instance.controls.Movement.Jump.triggered && !hasJumped)
         {
             if (GameManager.instance.controllingRobot && isRobot)
@@ -127,6 +133,8 @@ public class Player : MonoBehaviour
             }
             else if(!isRobot)
             {
+                audioS.clip = jump;
+                audioS.Play();
                 rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
                 hasJumped = true;
 

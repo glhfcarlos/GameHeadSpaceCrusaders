@@ -228,6 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _switchBehaviour: {fileID: 0}
+  collect: {fileID: 8300000, guid: 2ec14d07946c7fe429f08fc058e5b2f8, type: 3}
 --- !u!111 &3688997479919890647
 Animation:
   m_ObjectHideFlags: 0

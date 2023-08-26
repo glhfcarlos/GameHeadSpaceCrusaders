@@ -1,0 +1,4214 @@
+fileFormatVersion: 2
+guid: de87bf6476a61e24bbab25d8994ab59c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 5
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 126
+        width: 50
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bdc8e9d4a667b44a183186ae7959d3
+      internalID: 2086872252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 131
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef435143c7338c4d8762982465ce5c2
+      internalID: 1826772944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7569d05a1d6d8d42bfbe6b8eb7d5781
+      internalID: -27548606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 131
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f77ff77fd18aa4c965a6285a1b620b
+      internalID: 1772265418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 131
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95920c7ab0e26f74f9345188a3904025
+      internalID: -1621830225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 131
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f7e8354b4074845a87cf69ca8409a3
+      internalID: -1297886607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 131
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f5cadeab78e7946b8bf33d398cd2b2
+      internalID: -1167811724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 131
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0eaebf4a9367544793614da3d9a747f
+      internalID: 1804899641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 131
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac341d40868b72b448dbb7140b3f7e2f
+      internalID: -2104064290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_9
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 131
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de6bce133f8c3d41a3c4a0cb3929cf5
+      internalID: 410802965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_10
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 131
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3ebb63f8013134aabde58efabc33fd
+      internalID: -1431087179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_11
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 126
+        width: 50
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a253d9a6b5883b848b141650ddde0ebc
+      internalID: -830634716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_12
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 131
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80acd18ac3f35474099875e00600898a
+      internalID: 1774585508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_13
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 131
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22f9c648b4cca5448f2f52e3f02c8de
+      internalID: 1969908653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_14
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 131
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a3e7d246f3e7847818ac2daf0115ca
+      internalID: 70037697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 131
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cf3f5eee81ec244a9a1493251dc91e
+      internalID: -331130754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_16
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 131
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95075a4c12e627046b47b0ff1b0351d4
+      internalID: -1263343029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_17
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 131
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe7b5df51f0b17a4a8e843842490e4cd
+      internalID: 56258402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_18
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 131
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b6ec07bca594b4686186d0fa0e1af2
+      internalID: -1459939485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_19
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 131
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3de9e300073b4a45a1d68c4408653da
+      internalID: 1881497511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_20
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 131
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5129f121970d9408f9a7a5e5f0d116
+      internalID: -402336578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_21
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 131
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c36b2ad15f8974cbdc2ee35d767853
+      internalID: -1744121492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_22
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 113
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7771efc1b4b970b4ca3488f632d59502
+      internalID: 584916063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64275666e54152e4a836c358d7d67eda
+      internalID: 2116408879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 126
+        width: 34
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffa2bc3e69f0284a93f9430b07e8637
+      internalID: -1608464643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_25
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 113
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e7a5eb25a2c8242bf96322a3087b58
+      internalID: 1102390449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_26
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 113
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390518c41858c8a4fad2db58440aecf7
+      internalID: -291478823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9092c4ec3c1f7104094d056c4f07e2c0
+      internalID: 1643117986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_28
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 126
+        width: 34
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4259866c91822d4a8723689c2a0f4fc
+      internalID: 1399373971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_29
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 113
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559e4e1933fcef045baec39f3f2c2825
+      internalID: 2031323888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_30
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 126
+        width: 162
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165b02e2e143f5d40970f7c6f43840cc
+      internalID: -57120300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 112
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315a979f8e509ae49995d5fb5c64f3bd
+      internalID: -909193913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_32
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 112
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0189bf98b8d998a49972a05ecf73c0ed
+      internalID: 988076850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_33
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 112
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fb4161bac6adb44a6cd72560dbfcc5
+      internalID: -1046261456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_34
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 112
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b0e711d043ea142b4f5dd802e3686b
+      internalID: 1453113086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_35
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 116
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630d3c579b21c814286419f1a0bdd747
+      internalID: 849234959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_36
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 116
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5745611786fee445950e5506cfc93b5
+      internalID: -782331714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_37
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 116
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ddf6760e64d3cf4fb4b1ddb5124a963
+      internalID: 381599109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_38
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 115
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b2655ebad6da24591d69762b6ff9cd
+      internalID: 402229058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_39
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 115
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c22b2d049fdee848b19f3b8baef9f70
+      internalID: 678770836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_40
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ceb9e8fdd36554d87c92267a7fcdef
+      internalID: -1144540724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_41
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384287f8508f9ca4d97ec29c7b7ce6ca
+      internalID: 1599759308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_42
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b22c83e582676458777ce45065608c
+      internalID: 1860608201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_43
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e03fdac1b4ff148b73ed623107e22c
+      internalID: 396712685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_44
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 115
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f34076cf2ec51c479b50826b7b1f8ee
+      internalID: -2062754714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_45
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e52d212f11b304a88e2aa48f610a4b
+      internalID: 950287346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_46
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23fbd59a0c072884c95aa56b21d10875
+      internalID: -675778092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_47
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 115
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14736aa54aae5194695275685440efd7
+      internalID: 1520972194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_48
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 115
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c71ca9a3e4feb47b677e12e9248b85
+      internalID: -403614167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_49
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 115
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eacecfc3f1f88e4c9aa403ed3b71990
+      internalID: 29472838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_50
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf981c10646f21345bbb2b98f558e244
+      internalID: -96104049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_51
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7779578e7f267c44689170181287bef6
+      internalID: -670333597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_52
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d9d3dc6d38a2aa4c8e242f0f7c0845b
+      internalID: -1341050167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_53
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16322f0b95a6c3144bb60571aef4f385
+      internalID: 444237626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_54
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 115
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a083faab7a59b38488e84a2c5654ae66
+      internalID: -359311568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_55
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 115
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b110a02277e59524c8f7f05c0ad64b27
+      internalID: 1127411860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_56
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 115
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab41b9d8d2cdf7b4db8df6c6a22e3233
+      internalID: 1051961916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_57
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38e6092012724e44b6ca7fba9b34fca
+      internalID: 1344686807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_58
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d10c5c18fe84a949ab12a228c8ebc8c
+      internalID: -1641425937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_59
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a092a225ce38774aaaa664df4655b35
+      internalID: 526777540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_60
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 115
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283887a2ed0d109478bb3ef78c5bc3bb
+      internalID: -257673441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_61
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 115
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0052a635e5b544f4da2967e427a50744
+      internalID: 424302749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_62
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 99
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a864ea8eeac544468c4063ea41e0248
+      internalID: -361968850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_63
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 99
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f679b277a8fe54fba8f1521b133f6a
+      internalID: -237791230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_64
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 99
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ec615821fd8c94bb58a81cc677d9e0
+      internalID: 1950664376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_65
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 99
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776a4ee39fe843f4994943a3fbcf4702
+      internalID: 2070855688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_66
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 99
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2944134f311727d44891f71131f5dced
+      internalID: -2079635138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_67
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d61eb15ad88eec43a5624640212ce5f
+      internalID: 1912491749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_68
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5484abb916ab94a8c364dcbcc9fefe
+      internalID: -1330679095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_69
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820d2aa9a344a9d4385ff60964e3f38f
+      internalID: 565199283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_70
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822baa46a8c66d4499255b34c8ed044e
+      internalID: -406136533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_71
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 97
+        width: 50
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250faa28d2ef84345a8118bfbe759fc0
+      internalID: 805020045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_72
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 110
+        width: 34
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd24ab19af1c8ba4eb32760a86d47b97
+      internalID: -644406392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_73
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 110
+        width: 210
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07582caf172a8e44f8c52ab46170f65b
+      internalID: 594562252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_74
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 85
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec352591c0270094c9e080236bf1d581
+      internalID: 1668751200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_75
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 84
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30283ca3bcd5e34fb9b40615a9774ae
+      internalID: 2130347375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_76
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 85
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1231af6b312acc44a2f69dddf9a2a53
+      internalID: -857490562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_77
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 84
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1feddcd5230de847a038c4cc1c89eed
+      internalID: -298069363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_78
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 83
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563bfe8a570727245bff67633effc6cb
+      internalID: 609599710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_79
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 84
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c74faabd2e3640941b5bea32eb9edcc7
+      internalID: 1175187717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_80
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 110
+        width: 210
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce78ffa3a32913429fed408ea8145f3
+      internalID: -1615230401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_81
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 85
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056e9759d6fc72d40bc62434edc5ea4a
+      internalID: -790854645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_82
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 84
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0f5bf0f2fce134d9d7be76373aa542
+      internalID: 1896677759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_83
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 85
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a943aa40a7fac5e4299c8d48a925b77f
+      internalID: -1414578488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_84
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 84
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc661064e6c4754ba6432a08e9817f4
+      internalID: 662361224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_85
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 83
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b54c540bddbb9f4e9a000f828d4d072
+      internalID: 660772005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_86
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 84
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6b002645db99c46b7b6d0c85a4beb5
+      internalID: -571635585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_87
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 96
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d21f47d5c28af419a9c4c6f2196553
+      internalID: -2000431265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_88
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 96
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89b672051eeff44ab9c7e2536d8ad72
+      internalID: -696470560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_89
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 96
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32f2b9df53608c40a4fd3cd0c3b2e80
+      internalID: -356978027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_90
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 96
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3354b578b2e2074f86d4b51a81ec366
+      internalID: 1163900426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_91
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 98
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99918d5df930af4b903f8b4b9ec533b
+      internalID: -189074795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_92
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 97
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c551b0bd3a661d4f868a846d0a7338d
+      internalID: -1421601025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_93
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5febe28b987d5b49bab65b34de31a15
+      internalID: 1753825289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_94
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 80
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96536a6842767484a85f5ece9ed0463a
+      internalID: -1792942942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_95
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65aeec3d23c9b6f48ac1647b718a4ba8
+      internalID: -295349549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_96
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 80
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441339aa55e710048ad73cc9a1273a62
+      internalID: -854745509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_97
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8007273483d1474aacc0f4fe077417d
+      internalID: 1093207023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_98
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 80
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab884052fac10f47a1d75c2da836254
+      internalID: -704736299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_99
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8380ff9419264946859aadd436ef5da
+      internalID: 635282572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_100
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 80
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1724e9e761ca16b4e995fc34d8dd4a70
+      internalID: -1496276880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_101
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 82
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895c6600e9641b444b99918a2656df09
+      internalID: 783313392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_102
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 81
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f892d2dd733cd41a802dd59f878d97
+      internalID: -1023515594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_103
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 81
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ea997c85bfedc4a8c469efcf0816b1
+      internalID: -1529235373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_104
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 82
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8522c1ffff43047b8e44d70e894dad
+      internalID: -694059420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_105
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 81
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320fed52416eec84fac3b50fd098e2fd
+      internalID: -173819851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_106
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504e2335369438c4cba173dceffa4551
+      internalID: 1733995824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_107
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9dc65e252229974fb762bee2467e5db
+      internalID: -26549824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_108
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ae627807917694c95a995b9dbbc516
+      internalID: -495559865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_109
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a23e268ef5d68408169238d732176b
+      internalID: -1369199592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_110
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29be9490adf48944ba276668b61d4d4b
+      internalID: 1588195444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_111
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a0035f03417f24fbcb0a27a693f38a
+      internalID: 1281816371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_112
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc99444fdcacd3845beffeccdccb852b
+      internalID: 887554693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_113
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 64
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb11744f052ce94f97bf7436f516d8a
+      internalID: -1567457049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_114
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 52
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201029e02a7ae664190ebc4603c2dd0b
+      internalID: -925027451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_115
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 52
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8543f3ace2f2ee44aa684fe6809c2d48
+      internalID: -162343572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_116
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 52
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db96e7c0763cbdd45a6eb5a937c44a79
+      internalID: 219998228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_117
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 51
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da523e36f6f78a4580979eee773ef89
+      internalID: -1132067247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_118
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 51
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e44f741cde81b24584d8812d4264661
+      internalID: 1437218913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_119
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 51
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc20b2de92196404f9e6c82fb477ae36
+      internalID: -1888096488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_120
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 52
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b180ef82ad3d64f9e841e3e98cc94f
+      internalID: -562894074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_121
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 52
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f5639b436922d4588dda4b9ac205e7
+      internalID: 1614160287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_122
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 52
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365cd422964f85e45822092cd5aa334e
+      internalID: -1291424086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_123
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 51
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad6baa5180105041bd6710c133d8688
+      internalID: -899566966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_124
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 51
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ed91375d2732d4cb7dba221e7c2ef1
+      internalID: 1334052811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_125
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 51
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdb181e5ccb067409b0939aabe7e746
+      internalID: -900846951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_126
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 50
+        width: 162
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0e2a7322c130a45a828d4a3ed138b8
+      internalID: 31785663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_127
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 50
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce017c33a8e465b49b61b498511fbd69
+      internalID: 1547484174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_128
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 50
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fa3edf295d900479bba83cda2052e0
+      internalID: 2043762300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_129
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 50
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5c9075f5a90d54c889abbafbe7768c
+      internalID: 1547741075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_130
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 50
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c06a3fdd103fe8459db9644699c9ef9
+      internalID: -445898922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_131
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f32b513d5dc0a1489b1bb7a196219d9
+      internalID: 666147462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_132
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 48
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c022d1b4594f8d74cb7025dd01159743
+      internalID: 999733797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_133
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3783b6452fbe2a144af541f26af25a23
+      internalID: 984067495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_134
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 48
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4119c022460e3644a9cd06f7bc92e23e
+      internalID: 1166459129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_135
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e1a1febee7f3941947142c167849e0
+      internalID: -982135795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_136
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 48
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdabd7968861c24fab0afa7b30970cc
+      internalID: -256108189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_137
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572cb65390ac03d4a9c9ec469bdfe929
+      internalID: 848083235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_138
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 48
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9accb4fb893e4b340beeda419fd7210e
+      internalID: 1579509308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_139
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 52
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fe737719dbd964c9547d60ff042be4
+      internalID: 294504597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_140
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 51
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4007a533c653f43865fb7529b57f22
+      internalID: 1447292392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_141
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 51
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1562d9f8af8234297443bd9d9c3ba6
+      internalID: 638289633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_142
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 52
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6b976f8ebf2e64bb6eb4146cdfb28c
+      internalID: -141991480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_143
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 51
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5254fe529ceccf47b7cf4cd1279806e
+      internalID: -1544592662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_144
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 34
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a2ec7c797886d459561271ba41b2ae
+      internalID: 517710698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_145
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 33
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294d5a059f4be354293944a319017743
+      internalID: -1798213072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_146
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690cd84bdd421b34b935e0a5c8bf67a9
+      internalID: 663399360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_147
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 34
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83347efd034c41e49b07e148761fa77a
+      internalID: 518883930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_148
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 33
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84508483ded58e44eaf4e7ce3a865dda
+      internalID: 310044352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_149
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 34
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67a769b97b698f4c81d1d5bce64ecc1
+      internalID: 1279725318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_150
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 33
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed79c98d969e34479e66a7ddf669e0b
+      internalID: 1119941639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_151
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e0e520427673d4ebfde0f9c9044f01
+      internalID: 64586151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_152
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 34
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9d4d082f4ad154ab8843bcd976031c
+      internalID: -472322187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_153
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 33
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56261ee684b3c646bb34b3794734429
+      internalID: -325952504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_154
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 36
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d4466ad4f18c44c8a654d4616ec016
+      internalID: 123489765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_155
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 35
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f981ce7766dba47b2b502fa0e94b4e
+      internalID: 1124874616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_156
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 35
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6d52b122b0e084ba6499c0001f00c2
+      internalID: -1411154937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_157
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 36
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e55aa2c2cd5a814388592b350ba456b
+      internalID: -1116645920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_158
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 35
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d953fb9ce9e8a429e0c329e41130e5
+      internalID: 2109107991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_159
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 17
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fed3ef23f0a7043b44d57dacdc8a7d
+      internalID: -216268392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_160
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 17
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c919d5f3ad0854ab454770971e74e3
+      internalID: 704071332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_161
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 17
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24cf2e812e4121489a725079d04391f
+      internalID: 2074289353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_162
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 16
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b6a585847c5d94294e24ea5d94491d
+      internalID: 720617557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_163
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 16
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bc79087c4b2e54781cf78866d44c91
+      internalID: 32501832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_164
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 16
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658d95ee0be4e3542b23e1ac9a562cdd
+      internalID: -2011228675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_165
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 17
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6798cd06ef563f3428cd982a281710f8
+      internalID: -1181640168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_166
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 17
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5b61d0b258c4e4a86482e8cffa41bc
+      internalID: 877214396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_167
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 17
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0ad1d732fb76443a53548b4df211cb
+      internalID: 1498934929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_168
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 16
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1c2844b08e56440ae595f5d5db5a6b
+      internalID: 1900701625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_169
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 16
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef13be809ad83a45b3d79e1f537397f
+      internalID: -1667387476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_170
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 16
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d7832c1fe2abf498ee72bd97da149d
+      internalID: 1994719208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_171
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 18
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405c34edcd42cd34aa54fb055fd8ac78
+      internalID: 1136986895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_172
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 17
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52401072bbf18e941ac15987d23f8856
+      internalID: 740157114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_173
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643cbef5106756a4cb8db622fbe389f0
+      internalID: 703450188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_174
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 18
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c2e334857d3be4a9159be0b8e5ac68
+      internalID: 1349933786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_175
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 17
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6d99e94a9fc7c469e0f32496775c1d
+      internalID: -1293681513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_176
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 18
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40672e694690b5f46b90a2f5d6831877
+      internalID: 993428739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_177
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 17
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553af8638e3791f42a89a09770c7b813
+      internalID: 36628892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_178
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a88578b6d36002428c8b08002deba8c
+      internalID: -1836145614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_179
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 18
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e1f6b248c80ed4396afe7f0891232b
+      internalID: -2012406600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_180
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 17
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52be941093d844c49bb8daab41d68530
+      internalID: -1124317095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_181
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 3
+        width: 162
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb67e28e2a7cbda43900b783ba4b8c08
+      internalID: -516188630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_182
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 3
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f568878dd83e8f24d945016b923891f7
+      internalID: 891110070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_183
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 3
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3286838c91c063e41a2365b20a4d473d
+      internalID: -1662410725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_184
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 2
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1622c8a6529598943a5fc4d9cf97f29f
+      internalID: -561145869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xbox-ui-light-theme (1)_185
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 3
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c815b6cc495c884485b9ad55e1a7189
+      internalID: 1057256137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      xbox-ui-light-theme (1)_2: -27548606
+      xbox-ui-light-theme (1)_140: 1447292392
+      xbox-ui-light-theme (1)_150: 1119941639
+      xbox-ui-light-theme (1)_75: 2130347375
+      xbox-ui-light-theme (1)_46: -675778092
+      xbox-ui-light-theme (1)_164: -2011228675
+      xbox-ui-light-theme (1)_108: -495559865
+      xbox-ui-light-theme (1)_126: 31785663
+      xbox-ui-light-theme (1)_48: -403614167
+      xbox-ui-light-theme (1)_42: 1860608201
+      xbox-ui-light-theme (1)_50: -96104049
+      xbox-ui-light-theme (1)_53: 444237626
+      xbox-ui-light-theme (1)_51: -670333597
+      xbox-ui-light-theme (1)_137: 848083235
+      xbox-ui-light-theme (1)_37: 381599109
+      xbox-ui-light-theme (1)_112: 887554693
+      xbox-ui-light-theme (1)_29: 2031323888
+      xbox-ui-light-theme (1)_158: 2109107991
+      xbox-ui-light-theme (1)_173: 703450188
+      xbox-ui-light-theme (1)_6: -1167811724
+      xbox-ui-light-theme (1)_132: 999733797
+      xbox-ui-light-theme (1)_157: -1116645920
+      xbox-ui-light-theme (1)_111: 1281816371
+      xbox-ui-light-theme (1)_89: -356978027
+      xbox-ui-light-theme (1)_5: -1297886607
+      xbox-ui-light-theme (1)_85: 660772005
+      xbox-ui-light-theme (1)_64: 1950664376
+      xbox-ui-light-theme (1)_65: 2070855688
+      xbox-ui-light-theme (1)_146: 663399360
+      xbox-ui-light-theme (1)_183: -1662410725
+      xbox-ui-light-theme (1)_182: 891110070
+      xbox-ui-light-theme (1)_116: 219998228
+      xbox-ui-light-theme (1)_129: 1547741075
+      xbox-ui-light-theme (1)_60: -257673441
+      xbox-ui-light-theme (1)_80: -1615230401
+      xbox-ui-light-theme (1)_31: -909193913
+      xbox-ui-light-theme (1)_165: -1181640168
+      xbox-ui-light-theme (1)_44: -2062754714
+      xbox-ui-light-theme (1)_178: -1836145614
+      xbox-ui-light-theme (1)_7: 1804899641
+      xbox-ui-light-theme (1)_55: 1127411860
+      xbox-ui-light-theme (1)_136: -256108189
+      xbox-ui-light-theme (1)_159: -216268392
+      xbox-ui-light-theme (1)_155: 1124874616
+      xbox-ui-light-theme (1)_56: 1051961916
+      xbox-ui-light-theme (1)_74: 1668751200
+      xbox-ui-light-theme (1)_101: 783313392
+      xbox-ui-light-theme (1)_156: -1411154937
+      xbox-ui-light-theme (1)_24: -1608464643
+      xbox-ui-light-theme (1)_54: -359311568
+      xbox-ui-light-theme (1)_20: -402336578
+      xbox-ui-light-theme (1)_30: -57120300
+      xbox-ui-light-theme (1)_163: 32501832
+      xbox-ui-light-theme (1)_43: 396712685
+      xbox-ui-light-theme (1)_122: -1291424086
+      xbox-ui-light-theme (1)_93: 1753825289
+      xbox-ui-light-theme (1)_134: 1166459129
+      xbox-ui-light-theme (1)_153: -325952504
+      xbox-ui-light-theme (1)_72: -644406392
+      xbox-ui-light-theme (1)_38: 402229058
+      xbox-ui-light-theme (1)_22: 584916063
+      xbox-ui-light-theme (1)_63: -237791230
+      xbox-ui-light-theme (1)_66: -2079635138
+      xbox-ui-light-theme (1)_68: -1330679095
+      xbox-ui-light-theme (1)_86: -571635585
+      xbox-ui-light-theme (1)_91: -189074795
+      xbox-ui-light-theme (1)_49: 29472838
+      xbox-ui-light-theme (1)_149: 1279725318
+      xbox-ui-light-theme (1)_167: 1498934929
+      xbox-ui-light-theme (1)_47: 1520972194
+      xbox-ui-light-theme (1)_94: -1792942942
+      xbox-ui-light-theme (1)_83: -1414578488
+      xbox-ui-light-theme (1)_128: 2043762300
+      xbox-ui-light-theme (1)_185: 1057256137
+      xbox-ui-light-theme (1)_152: -472322187
+      xbox-ui-light-theme (1)_138: 1579509308
+      xbox-ui-light-theme (1)_28: 1399373971
+      xbox-ui-light-theme (1)_9: 410802965
+      xbox-ui-light-theme (1)_177: 36628892
+      xbox-ui-light-theme (1)_79: 1175187717
+      xbox-ui-light-theme (1)_99: 635282572
+      xbox-ui-light-theme (1)_120: -562894074
+      xbox-ui-light-theme (1)_77: -298069363
+      xbox-ui-light-theme (1)_35: 849234959
+      xbox-ui-light-theme (1)_103: -1529235373
+      xbox-ui-light-theme (1)_0: 2086872252
+      xbox-ui-light-theme (1)_14: 70037697
+      xbox-ui-light-theme (1)_90: 1163900426
+      xbox-ui-light-theme (1)_110: 1588195444
+      xbox-ui-light-theme (1)_114: -925027451
+      xbox-ui-light-theme (1)_57: 1344686807
+      xbox-ui-light-theme (1)_36: -782331714
+      xbox-ui-light-theme (1)_107: -26549824
+      xbox-ui-light-theme (1)_105: -173819851
+      xbox-ui-light-theme (1)_40: -1144540724
+      xbox-ui-light-theme (1)_135: -982135795
+      xbox-ui-light-theme (1)_8: -2104064290
+      xbox-ui-light-theme (1)_119: -1888096488
+      xbox-ui-light-theme (1)_76: -857490562
+      xbox-ui-light-theme (1)_11: -830634716
+      xbox-ui-light-theme (1)_39: 678770836
+      xbox-ui-light-theme (1)_144: 517710698
+      xbox-ui-light-theme (1)_123: -899566966
+      xbox-ui-light-theme (1)_131: 666147462
+      xbox-ui-light-theme (1)_181: -516188630
+      xbox-ui-light-theme (1)_121: 1614160287
+      xbox-ui-light-theme (1)_82: 1896677759
+      xbox-ui-light-theme (1)_70: -406136533
+      xbox-ui-light-theme (1)_133: 984067495
+      xbox-ui-light-theme (1)_16: -1263343029
+      xbox-ui-light-theme (1)_84: 662361224
+      xbox-ui-light-theme (1)_161: 2074289353
+      xbox-ui-light-theme (1)_71: 805020045
+      xbox-ui-light-theme (1)_118: 1437218913
+      xbox-ui-light-theme (1)_4: -1621830225
+      xbox-ui-light-theme (1)_160: 704071332
+      xbox-ui-light-theme (1)_33: -1046261456
+      xbox-ui-light-theme (1)_88: -696470560
+      xbox-ui-light-theme (1)_27: 1643117986
+      xbox-ui-light-theme (1)_95: -295349549
+      xbox-ui-light-theme (1)_117: -1132067247
+      xbox-ui-light-theme (1)_154: 123489765
+      xbox-ui-light-theme (1)_180: -1124317095
+      xbox-ui-light-theme (1)_61: 424302749
+      xbox-ui-light-theme (1)_100: -1496276880
+      xbox-ui-light-theme (1)_106: 1733995824
+      xbox-ui-light-theme (1)_130: -445898922
+      xbox-ui-light-theme (1)_17: 56258402
+      xbox-ui-light-theme (1)_25: 1102390449
+      xbox-ui-light-theme (1)_58: -1641425937
+      xbox-ui-light-theme (1)_162: 720617557
+      xbox-ui-light-theme (1)_175: -1293681513
+      xbox-ui-light-theme (1)_69: 565199283
+      xbox-ui-light-theme (1)_147: 518883930
+      xbox-ui-light-theme (1)_3: 1772265418
+      xbox-ui-light-theme (1)_92: -1421601025
+      xbox-ui-light-theme (1)_78: 609599710
+      xbox-ui-light-theme (1)_102: -1023515594
+      xbox-ui-light-theme (1)_1: 1826772944
+      xbox-ui-light-theme (1)_41: 1599759308
+      xbox-ui-light-theme (1)_59: 526777540
+      xbox-ui-light-theme (1)_73: 594562252
+      xbox-ui-light-theme (1)_142: -141991480
+      xbox-ui-light-theme (1)_179: -2012406600
+      xbox-ui-light-theme (1)_21: -1744121492
+      xbox-ui-light-theme (1)_141: 638289633
+      xbox-ui-light-theme (1)_166: 877214396
+      xbox-ui-light-theme (1)_13: 1969908653
+      xbox-ui-light-theme (1)_62: -361968850
+      xbox-ui-light-theme (1)_172: 740157114
+      xbox-ui-light-theme (1)_96: -854745509
+      xbox-ui-light-theme (1)_87: -2000431265
+      xbox-ui-light-theme (1)_169: -1667387476
+      xbox-ui-light-theme (1)_125: -900846951
+      xbox-ui-light-theme (1)_32: 988076850
+      xbox-ui-light-theme (1)_109: -1369199592
+      xbox-ui-light-theme (1)_12: 1774585508
+      xbox-ui-light-theme (1)_23: 2116408879
+      xbox-ui-light-theme (1)_145: -1798213072
+      xbox-ui-light-theme (1)_104: -694059420
+      xbox-ui-light-theme (1)_124: 1334052811
+      xbox-ui-light-theme (1)_97: 1093207023
+      xbox-ui-light-theme (1)_139: 294504597
+      xbox-ui-light-theme (1)_19: 1881497511
+      xbox-ui-light-theme (1)_148: 310044352
+      xbox-ui-light-theme (1)_184: -561145869
+      xbox-ui-light-theme (1)_171: 1136986895
+      xbox-ui-light-theme (1)_151: 64586151
+      xbox-ui-light-theme (1)_15: -331130754
+      xbox-ui-light-theme (1)_67: 1912491749
+      xbox-ui-light-theme (1)_10: -1431087179
+      xbox-ui-light-theme (1)_34: 1453113086
+      xbox-ui-light-theme (1)_98: -704736299
+      xbox-ui-light-theme (1)_81: -790854645
+      xbox-ui-light-theme (1)_127: 1547484174
+      xbox-ui-light-theme (1)_113: -1567457049
+      xbox-ui-light-theme (1)_26: -291478823
+      xbox-ui-light-theme (1)_170: 1994719208
+      xbox-ui-light-theme (1)_18: -1459939485
+      xbox-ui-light-theme (1)_168: 1900701625
+      xbox-ui-light-theme (1)_52: -1341050167
+      xbox-ui-light-theme (1)_45: 950287346
+      xbox-ui-light-theme (1)_115: -162343572
+      xbox-ui-light-theme (1)_143: -1544592662
+      xbox-ui-light-theme (1)_174: 1349933786
+      xbox-ui-light-theme (1)_176: 993428739
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
