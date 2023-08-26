@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -44,6 +44,26 @@ public class GameManager : MonoBehaviour
         else
         {
             Multiplecamera.targets[0] = GameObject.FindWithTag("Player").transform; 
+        }
+        if (controllingRobot)
+        {
+            Multiplecamera.targets[0] = Robot.transform;
+
+            // 激活 BoxVolume 游戏对象
+            if (UserInput.instance != null && UserInput.instance.boxVolume != null)
+            {
+                UserInput.instance.boxVolume.SetActive(true);
+            }
+        }
+        else
+        {
+            Multiplecamera.targets[0] = GameObject.FindWithTag("Player").transform;
+
+            // 隐藏 BoxVolume 游戏对象
+            if (UserInput.instance != null && UserInput.instance.boxVolume != null)
+            {
+                UserInput.instance.boxVolume.SetActive(false);
+            }
         }
 
 

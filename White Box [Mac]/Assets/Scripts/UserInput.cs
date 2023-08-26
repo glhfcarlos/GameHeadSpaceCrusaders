@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.U2D.Path.GUIFramework;
 using UnityEngine;
@@ -11,7 +11,8 @@ public class UserInput : MonoBehaviour
 
     [HideInInspector] public Controls controls;
     [HideInInspector] public Vector2 moveInput;
-   
+    public GameObject boxVolume;
+
 
     private void Awake()
     {
@@ -52,6 +53,7 @@ public class UserInput : MonoBehaviour
         {
             GameManager.instance.startHacking = true;
             GameManager.instance.controllingRobot = false;
+            ActivateBoxVolume(true);
         }
         else
         {
@@ -66,7 +68,7 @@ public class UserInput : MonoBehaviour
      
         GameManager.instance.startHacking = false;
         GameManager.instance.currentHackingValue = 0f;
-
+        ActivateBoxVolume(false);
     }
 
     private void SwapCharacter()
@@ -75,12 +77,24 @@ public class UserInput : MonoBehaviour
         {
             GameManager.instance.controllingRobot = false;
             GameManager.instance.MainPlayer.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+            ActivateBoxVolume(true);
         }
 
         else if (GameManager.instance.HackingComplete && !GameManager.instance.controllingRobot) 
         {
             GameManager.instance.controllingRobot = true;
             GameManager.instance.MainPlayer.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+            ActivateBoxVolume(false);
+        }
+
+    }
+    private void ActivateBoxVolume(bool activate)
+    {
+        GameObject boxVolume = GameObject.Find("BoxVolume"); // 使用BoxVolume游戏对象的名称
+        if (boxVolume != null)
+        {
+            Collider2D collider = boxVolume.GetComponent<Collider2D>();
+            collider.enabled = activate;
         }
     }
 
